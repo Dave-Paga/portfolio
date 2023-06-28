@@ -7,7 +7,7 @@ function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo">
-                    TRVL i.fab.fa-typo3
+                    TRVL <i className='fab fa-typo3'/>
                 </Link>
             </div>
         </nav>
@@ -15,4 +15,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;
