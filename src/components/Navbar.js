@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 import { Button } from './Button';
@@ -18,13 +18,17 @@ function Navbar() {
     }
   }
 
+  useEffect(() =>{
+    showButton()
+  }, [])
+
   window.addEventListener('resize', showButton);
 
   return (
     <div>
         <nav className="navbar">
             <div className="navbar-container">
-                <Link to="/" className="navbar-logo">
+                <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
                   Dave Pagaduan<i class="fab fa-dev"></i>
                 </Link>
                 
@@ -51,9 +55,16 @@ function Navbar() {
                       Projects
                     </Link>
                   </li>
-                </ul>
 
+                  <li>
+                    <Link to='/'className='nav-links-mobile' onClick={closeMobileMenu}>
+                      Contact Me
+                    </Link>
+                  </li>
+
+                </ul>
                 {button && <Button buttonStyle='btn--outline'>Contact Me</Button>}
+
             </div>
         </nav>
     </div>
