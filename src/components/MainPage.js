@@ -22,7 +22,57 @@ function MainPage() {
       </div>
 
       <div id='skills'>
-        <h1 className='skills-title'>Skills</h1>
+        <h1 className='title-white'>Skills</h1>
+
+        <div className='skills-container'>
+          <div className='front-end'>
+            <h2 className='title-white'>Front-End</h2>
+            <ul className='skill-list'>
+              <li>asd</li>
+              <li>ASsd</li>
+              <li>asd</li>
+              <li>ASsd</li>
+              <li>asd</li>
+              <li>ASsd</li>
+              <li>asd</li>
+              <li>ASsd</li>
+              <li>asd</li>
+              <li>ASsd</li>
+            </ul>
+          </div>
+
+          <div className='back-end'>
+            <h2 className='title-white'>Back-End</h2>
+            <ul className='skill-list'>
+              <li>asd</li>
+              <li>ASsd</li>
+              <li>asd</li>
+              <li>ASsd</li>
+              <li>asd</li>
+              <li>ASsd</li>
+              <li>asd</li>
+              <li>ASsd</li>
+              <li>asd</li>
+              <li>ASsd</li>
+            </ul>
+          </div>
+
+          <div className='tools'>
+            <h2 className='title-white'>Tools</h2>
+            <ul className='skill-list'>
+              <li>asd</li>
+              <li>ASsd</li>
+              <li>asd</li>
+              <li>ASsd</li>
+              <li>asd</li>
+              <li>ASsd</li>
+              <li>asd</li>
+              <li>ASsd</li>
+              <li>asd</li>
+              <li>ASsd</li>
+            </ul>
+          </div>
+        </div>
       </div>
       <Footer />
     </>
