@@ -1,3 +1,9 @@
+/* ----------------------------General---------------------- */
+.title-white {
+  color: white;
+}
+
+/* ----------------------------About Me---------------------- */
 #about-me {
   display: flex;
   margin: auto;
@@ -30,6 +36,7 @@
 .about-me-paragraph {
   padding-top: 2rem;
   text-align: justify;
+  color:rgb(71, 71, 71);
 }
 
 
@@ -42,4 +49,18 @@
   justify-content: center;
   align-items: center;
 }
+
+.skills-container {
+  display: flex;
+  margin: auto;
+  width: 80%;
+  justify-content: center;
+}
+
+.skill-list {
+  list-style-type: none;
+  text-align: center;
+  color: white;
+}
+
 
