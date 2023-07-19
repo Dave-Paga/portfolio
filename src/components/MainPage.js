@@ -25,51 +25,39 @@ function MainPage() {
         <h1 className='title-white'>Skills</h1>
 
         <div className='skills-container'>
-          <div className='front-end'>
-            <h2 className='title-white'>Front-End</h2>
+          <div className='skills-container2'>
+            <div className='logo'><i class="fa-brands fa-html5 fa-beat fa-2xl"></i></div>
+            <h2 className='title-white skill-title'>Front-End</h2>
             <ul className='skill-list'>
-              <li>asd</li>
-              <li>ASsd</li>
-              <li>asd</li>
-              <li>ASsd</li>
-              <li>asd</li>
-              <li>ASsd</li>
-              <li>asd</li>
-              <li>ASsd</li>
-              <li>asd</li>
-              <li>ASsd</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>React</li>
+              <li>Angular</li>
+              <li>Bootstrap</li>
             </ul>
           </div>
 
-          <div className='back-end'>
-            <h2 className='title-white'>Back-End</h2>
+          <div className='skills-container2'>
+            <div className='logo'><i class="fa-solid fa-gear fa-spin fa-2xl"></i></div>
+            <h2 className='title-white skill-title'>Back-End</h2>
             <ul className='skill-list'>
-              <li>asd</li>
-              <li>ASsd</li>
-              <li>asd</li>
-              <li>ASsd</li>
-              <li>asd</li>
-              <li>ASsd</li>
-              <li>asd</li>
-              <li>ASsd</li>
-              <li>asd</li>
-              <li>ASsd</li>
+              <li>Python</li>
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>Java</li>
+              <li>Firebase</li>
             </ul>
           </div>
 
-          <div className='tools'>
-            <h2 className='title-white'>Tools</h2>
+          <div className='skills-container2'>
+            <div className='logo'><i class="fa-solid fa-wrench fa-bounce fa-2xl"></i></div>
+            <h2 className='title-white skill-title'>Tools</h2>
             <ul className='skill-list'>
-              <li>asd</li>
-              <li>ASsd</li>
-              <li>asd</li>
-              <li>ASsd</li>
-              <li>asd</li>
-              <li>ASsd</li>
-              <li>asd</li>
-              <li>ASsd</li>
-              <li>asd</li>
-              <li>ASsd</li>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VSCode</li>
+              <li>Typescript</li>
             </ul>
           </div>
         </div>
