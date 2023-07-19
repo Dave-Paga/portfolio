@@ -57,10 +57,36 @@
   justify-content: center;
 }
 
+.skills-container2 {
+  width: 30%;
+}
+
+.skill-title {
+  text-align: center;
+  padding-bottom: 0.5rem;
+  border-bottom: solid rgb(156, 156, 156) ;
+}
+
 .skill-list {
+  padding-top: 1rem;
   list-style-type: none;
   text-align: center;
   color: white;
 }
 
+li:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
 
+.logo {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 2rem auto 2rem auto;
+}
