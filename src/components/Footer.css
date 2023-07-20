@@ -10,3 +10,32 @@
   justify-content: center;
   align-items: center;
 }
+
+.contact-links {
+  display: flex;
+
+}
+
+.links {
+  width: 18rem;
+  margin: 2rem 3rem 0 3rem;
+  text-align: center;
+  transition: transform .2s;
+}
+
+.links:hover {
+  transform: scale(1.2);
+  border: #242424;
+}
+
+@media screen and (max-width: 960px) {
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .links {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
