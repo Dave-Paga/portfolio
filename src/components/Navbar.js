@@ -9,6 +9,26 @@ function Navbar() {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+
+  const jumpAboutMe = () => { 
+    document.querySelector(`#about-me`).scrollIntoView();
+    closeMobileMenu();
+  }
+
+  const jumpSkills = () => { 
+    document.querySelector(`#skills`).scrollIntoView();
+    closeMobileMenu();
+  }
+
+  const jumpProjects = () => { 
+    document.querySelector(`#projects`).scrollIntoView();
+    closeMobileMenu();
+  }
+
+  const jumpContactMe = () => { 
+    document.querySelector(`#contact-me`).scrollIntoView();
+    closeMobileMenu();
+  }
   
   const showButton = () => {
     if(window.innerWidth <= 960) {
@@ -39,32 +59,32 @@ function Navbar() {
 
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                   <li className='nav-item'>
-                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                    <Link className='nav-links' onClick={jumpAboutMe}>
                       About Me
                     </Link>
                   </li>
 
                   <li className='nav-item'>
-                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                    <Link className='nav-links' onClick={jumpSkills}>
                       Skills
                     </Link>
                   </li>
 
                   <li className='nav-item'>
-                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                    <Link className='nav-links' onClick={jumpProjects}>
                       Projects
                     </Link>
                   </li>
 
                   <li>
-                    <Link to='/'className='nav-links-mobile' onClick={closeMobileMenu}>
+                    <Link className='nav-links-mobile' onClick={jumpContactMe}>
                       Contact Me
                     </Link>
                   </li>
 
 
                 </ul>
-                {button && <Button buttonStyle='btn--outline'>Contact Me</Button>}
+                {button && <Button buttonStyle='btn--outline1'>Contact Me</Button>}
 
             </div>
         </nav>
