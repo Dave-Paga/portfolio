@@ -15,10 +15,40 @@
 }
 
 .project {
-  width: 35%;
-  margin: 2rem 2rem 2rem 2rem;
+  width: 40%;
+  height: 700px !important;
+  margin: 2rem;
 }
 
 .dropdown {
   margin-bottom: 1rem;
+}
+
+.dropdownItem {
+  color: black;
+}
+
+.dropdown-item.disabled {
+  color: black !important;
+}
+
+.technology {
+  color: white !important;
+  padding: 2px;
+  margin: 2px;
+  
+}
+
+.demoBtns {
+  margin: 2rem 0.5rem 0;
+}
+
+.card-img {
+  height: 300px;
+}
+
+@media screen and (max-width: 960px) {
+  .project {
+    width: 80%;
+  }
 }

@@ -36,7 +36,6 @@ function MainPage() {
               <li>React</li>
               <li>Angular</li>
               <li>Bootstrap</li>
-              <li>MaterialUI</li>
             </ul>
           </div>
 
@@ -50,6 +49,7 @@ function MainPage() {
               <li>Express</li>
               <li>Java</li>
               <li>Firebase</li>
+              <li>NodeJS</li>
             </ul>
           </div>
 
